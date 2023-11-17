@@ -3,6 +3,8 @@ Check if you have python installed and which version
 ```bash
 python --version
 ```
+Make sure python_version is set to a version that is 3 or greater.
+
 Check if you have `pip` and which version
 ```bash
 pip --version 
@@ -16,11 +18,11 @@ add the latest version after `==`
 pip3 install django==3.1.1
 ```
 switch to `pip` environment
-```
+```bash
 pipenv shell
 ```
-Make sure python_version is set to a version that is 3 or greater. If the version mentioned in the Pipfile is already 3 or greater, then you can skip to the next step (i.e., install django).
-```
+install django inside `pipenv`
+```bash
 pipenv install django
 ```
 
