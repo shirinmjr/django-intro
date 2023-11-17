@@ -1,4 +1,4 @@
-# DJANGO INTRO
+# Introduction to django
 Check if you have python installed and which version
 ```bash
 python --version
@@ -12,16 +12,17 @@ pip --version
 ```bash
  pip3 --version
 ```
-install django
-add the latest version after `==`
+If you don't have `pipenv` installed
 ```bash
-pip3 install django==3.1.1
+brew install pipenv
 ```
+
+## Inside Pip
 switch to `pip` environment
 ```bash
 pipenv shell
 ```
-install django inside `pipenv`
+install latest version of django inside `pipenv`
 ```bash
 pipenv install django
 ```
