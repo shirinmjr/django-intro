@@ -35,7 +35,10 @@ pipenv install psycopg2-binary
 All we've done so far is install our dependencies and create our virtual environment. Now, we want to start our Django project:
 
 ```bash
-pipenv run django-admin startproject tunr_django .
+django-admin startproject django_demo .
 ```
 
-```django-admin startproject smartmotes .```
+to start the project
+```bash
+python3 manage.py runserver
+```
